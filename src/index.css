@@ -1,13 +1,122 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* font-family: 'Poppins', sans-serif; */
+
+/* Navbar */
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    box-shadow: 0px 8px 6px -6px;
+    border-bottom: 0.5px solid black;
 }
+
+.nav-link{
+    font-weight: 300 !important;
+}
+
+.nav-link:hover{
+    color: black;
+    font-size: 28px;
+}
+
+.active{
+    border-bottom: 2px solid black;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 3px;
+
+}
+
+
+/* Footer  */
+
+.footer{
+     color: beige;
+     background-color: black;
+     padding: 25px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+    /* font-size: 15px; */
+}
+
+.footer a:hover{
+    font-size: 25px;
+}
+
+
+/* Page Not Found */
+
+.pnf {
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pnf-title {
+    font-size: 100px;
+    font-weight: 700;
+  }
+  
+  .pnf-heading {
+    font-weight: normal;
+  }
+  
+  .pnf-btn {
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .pnf-btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+  /* Conatct us  */
+
+  .contactus {
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  /* Regiteration Form  */
+
+  .register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+  }
+
+  /* registration form  */
+  .form{
+    padding: 4px 40px;
+    border: 2px solid black;
+  }
